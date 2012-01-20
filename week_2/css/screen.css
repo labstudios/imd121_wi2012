@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+body {
+	background-color: black;
+}*/
+
+nav a{
+	color: #555555;
+}
+
+#article1{
+	color: #336600;
+}
+
+.short {
+	width: 48%;
+}
+
+.red {
+	color: #ff0000;
+	font-weight: bold;
+}
