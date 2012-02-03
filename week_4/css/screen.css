@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clear{
+	clear: both;
+}
+
+#nav ul{
+	list-style: none;
+}
+
+#nav ul li {
+	float: left;
+	padding: 0 19px 10px 0;
+}
+
+#nav a{
+	text-decoration: none;
+}
+
+#nav a:hover{
+	text-decoration: underline;
+}
+
+img[src$='snoopy.jpg']{
+	width: 250px;
+	float: left;
+	margin-right: 10px;
+}
+
+.article{
+	font-family: Tahoma, Arial, Sans-Serif;
+}
+
+.article h3{
+	font-size: 1.25em;
+}
+
+.article p{
+	font-size: .9em;
+	letter-spacing: 1.1em;
+}
+
+
+
+
+
+
+
+
+
+
+
