@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Form</title>
+</head>
+
+<body>
+
+<form action="process.php" enctype="multipart/form-data" method="post">
+<p>Name: <input type="text" name="name" /></p>
+<p>Password: <input type="password" name="pass" /></p>
+<input type="hidden" name="pageid" value="23" />
+<p>
+What products do you use?</p>
+<p>
+<input type="checkbox" id="dw" name="products[]" value="dreamweaver" />
+<label for="dw">Dreamweaver</label>
+<input type="checkbox" id="phpd" name="products[]" value="phpdesigner" />
+<label for="phpd">PHPDesigner</label>
+<input type="checkbox" id="coda" name="products[]" value="coda" />
+<label for="coda">Coda</label>
+<input type="checkbox" id="nppp" name="products[]" value="notepad++" />
+<label for="nppp">Notepad++</label>
+</p>
+<p>How well do you like our products?</p>
+<p>
+<input id="love" type="radio" name="opinion" value="love" checked="checked" />
+<label for="love">Love them!</label>
+<input id="ok" type="radio" name="opinion" value="ok" />
+<label for="ok">They are ok.</label>
+<input id="hate" type="radio" name="opinion" value="hate it" />
+<label for="hate">I hate them! and you too.</label>
+</p>
+<p>What kind of code do you normally write?
+<select name="codetype">
+	<option value=""></option>
+    <option value="html">HTML</option>
+    <option value="js">JavaScript</option>
+    <option value="css">CSS</option>
+    <option value="php">PHP</option>
+    <option value="asp">ASP</option>
+    <option value="perl">PERL</option>
+</select>
+</p>
+<p>
+Your Comments:</p>
+<p>
+<textarea name="comments"></textarea>
+</p>
+<p><input type="submit" value="OK" /> <input type="reset" value="Cancel" /></p>
+
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
