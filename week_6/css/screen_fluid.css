@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	padding: 0;
+	margin: 0;
+	background-color: #666666;
+}
+
+#wrapper{
+	width: 75%;
+	margin: 0 auto;
+	position: relative;
+	background-color: #ffffff;
+	min-width: 567px;
+}
+
+#header{
+	background-color: #9977ff;
+	padding: 5px 10px;
+}
+
+#header h1{
+	margin: 0;
+}
+
+#nav{
+	background-color: #cccc00;
+	padding: 5px 10px;
+	border: solid 1px black;
+}
+
+#nav a{
+	color: white;
+	text-decoration: none;
+}
+
+#main{
+	float: left;
+	width: 66%;
+	padding: 1% 2%;
+	background-color: #ff00d4;
+}
+
+#sidebar{
+	float: right;
+	width: 26%;
+	padding: 1% 2%;
+}
+
+#footer{
+	clear: both;
+	background-color: #faff00;
+	padding: 5px 10px;
+}
+
+
+
+
+
