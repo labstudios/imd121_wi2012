@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Form</title>
+</head>
+
+<body>
+
+<form action="process.php" enctype="multipart/form-data" method="post">
+<p>Name: <input type="text" name="name" /></p>
+<p>Password: <input type="password" name="pass" /></p>
+<input type="hidden" name="pageid" value="23" />
+<p>
+What products do you use?</p>
+<p>
+<label><input type="checkbox" name="products[]" value="dreamweaver" />
+Dreamweaver</label>
+<label><input type="checkbox" name="products[]" value="phpdesigner" />
+PHPDesigner</label>
+<label><input type="checkbox" name="products[]" value="coda" />
+Coda</label>
+<label><input type="checkbox" name="products[]" value="notepad++" />
+Notepad++</label>
+</p>
+<p>How well do you like our products?</p>
+<p>
+<label><input type="radio" name="opinion" value="love" checked="checked" />
+Love them!</label>
+<label><input type="radio" name="opinion" value="ok" />
+They are ok.</label>
+<label><input type="radio" name="opinion" value="hate it" />
+I hate them! and you too.</label>
+</p>
+<p>What kind of code do you normally write?
+<select name="codetype">
+	<option value=""></option>
+    <option value="html">HTML</option>
+    <option value="js">JavaScript</option>
+    <option value="css">CSS</option>
+    <option value="php">PHP</option>
+    <option value="asp">ASP</option>
+    <option value="perl">PERL</option>
+</select>
+</p>
+<p>
+Your Comments:</p>
+<p>
+<textarea name="comments"></textarea>
+</p>
+<p><input type="submit" value="OK" /> <input type="reset" value="Cancel" /></p>
+
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+

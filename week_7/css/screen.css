@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url('../img/background3.jpg')center repeat-y fixed #ffffff;
+	color:black;
+}
+
+p {
+	background: url('../img/background2.jpg') center repeat-x fixed;
+}
