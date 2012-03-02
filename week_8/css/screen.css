@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav{
+	padding-top: 16px;
+}
+
+nav a{
+	height: 50px;
+	background: url('../img/navback.png') repeat-x;
+	padding: 11px 4px 13px 4px;
+	margin-right: 10px;
+	font-size: 22px;
+	color: whiteSmoke;
+	text-decoration: none;
+	/*transition:  color 2s;
+	/*-moz-transition: background-position 2s, color 2s; /* Firefox 4 */
+	/*-webkit-transition:  color 2s; /* Safari and Chrome */
+	/*-o-transition: background-position 2s, color 2s; /* Opera */
+}
+
+nav a:visited{
+	color:whiteSmoke;
+	/*transition:  color 2s;
+	/*-moz-transition: background-position 2s, color 2s; /* Firefox 4 */
+	/*-webkit-transition:  color 2s; /* Safari and Chrome */
+	/*-o-transition: background-position 2s, color 2s; /* Opera */
+}
+
+nav a:hover{
+	background-position: 0 -51px;
+	color: white;
+}
