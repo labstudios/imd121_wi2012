@@ -1,0 +1,16 @@
+
+.hidable{
+	-moz-transition: 500ms height;
+	-ms-transition: 500ms height;
+	-webkit-transition: 500ms height;
+	transition: height 500ms;
+	overflow: hidden;
+}
+
+.hidable.hidden{
+	-moz-transition: 500ms height;
+	-ms-transition: 500ms height;
+	-webkit-transition: 500ms height;
+	transition: height 500ms;
+	height: 0;
+}
