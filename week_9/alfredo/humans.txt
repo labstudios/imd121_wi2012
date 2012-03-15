@@ -1,0 +1,32 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  <your title>: <your name>
+  Developer: Alfredo Saavedra
+  Developer: Brent Allen
+  Designer: Janet Longhurst
+  Designer: Kassie Wright
+  Designer: Christian Broadbent
+  Site: www.risermedia.com
+  Twitter: 
+  Location: Utah, USA
+
+/* THANKS */
+  Names (& URL): 
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery, Mootools
+  Software: PHP, Javascript
+  
+
+ooooooooo.    o8o                              ooo        ooooo                 .o8   o8o            
+`888   `Y88.  `"'                              `88.       .888'                "888   `"'            
+ 888   .d88' oooo   .oooo.o  .ooooo.  oooo d8b  888b     d'888   .ooooo.   .oooo888  oooo   .oooo.   
+ 888ooo88P'  `888  d88(  "8 d88' `88b `888""8P  8 Y88. .P  888  d88' `88b d88' `888  `888  `P  )88b  
+ 888`88b.     888  `"Y88b.  888ooo888  888      8  `888'   888  888ooo888 888   888   888   .oP"888  
+ 888  `88b.   888  o.  )88b 888    .o  888      8    Y     888  888    .o 888   888   888  d8(  888  
+o888o  o888o o888o 8""888P' `Y8bod8P' d888b    o8o        o888o `Y8bod8P' `Y8bod88P" o888o `Y888""8o 
+                                                                                                           
